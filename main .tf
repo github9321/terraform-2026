@@ -8,7 +8,7 @@ module "ec2_instance" {
   monitoring    = true
   subnet_id     = "subnet-0ab2056f9db101057"
   vpc_security_group_ids = [ "sg-080b9b77149ca75e6" ]
-  count = 3
+  count = 2
 
   tags = {
     Terraform   = "true"
